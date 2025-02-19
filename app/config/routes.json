@@ -1,0 +1,22 @@
+[
+    {
+        "path": "/",
+        "methods": ["GET"],
+        "controller": "TestController"
+    },
+    {
+        "path": "/api/profile",
+        "methods": ["GET"],
+        "controller": "ApiProfileController"
+    },
+    {
+        "path": "/api/posts",
+        "methods": ["GET", ""],
+        "controller": "ApiPostController"
+    },
+    {
+        "path": "/api/posts-create",
+        "methods": ["POST"],
+        "controller": "ApiCreatePostController"
+    }
+]
